@@ -12,7 +12,9 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "shell": {
+        "open": true
+      }
     },
     "bundle": {
       "active": true,
@@ -29,7 +31,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.emailclient.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -59,7 +61,8 @@
         "height": 600,
         "resizable": true,
         "title": "Email Client",
-        "width": 800
+        "width": 800,
+        "visible": false
       }
     ]
   }
